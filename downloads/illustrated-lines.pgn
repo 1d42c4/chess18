@@ -1,0 +1,191 @@
+[Event "Endgames, Step by Step: lesson 1"]
+[Site "https://knightway8.github.io/chess18/lessons/01-the-king-becomes-an-active-piece.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/5pk1/8/8/8/8/4KP2/8 w - - 0 1"]
+
+1. Kd3 { White starts toward the center instead of leaving the king on the back rank. } 1... Kf6 { Black improves the king toward the central files. } 2. Ke4 { White reaches an active central square. } 2... Ke6 { Black also approaches, keeping a legal distance between the kings. } *
+
+[Event "Endgames, Step by Step: lesson 2"]
+[Site "https://knightway8.github.io/chess18/lessons/02-opposition-is-a-struggle-over-entry-squares.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4k3/8/4K3/4P3/8/8 w - - 0 1"]
+
+1. Kd4 { White steps sideways, trying to approach around the defender. } 1... Kd6 { Black follows and restores the same facing relationship on the d-file. } *
+
+[Event "Endgames, Step by Step: lesson 3"]
+[Site "https://knightway8.github.io/chess18/lessons/03-a-king-in-front-can-escort-its-pawn-home.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1"]
+
+1. Kf6 { White makes room for the pawn and controls e7. } 1... Kf8 { Black stays near the promotion area. } 2. e6 { The pawn advances while the king keeps useful control. } 2... Ke8 { Black returns in front of the pawn. } 3. e7 { White advances to the seventh rank with king support. } 3... Kd7 { Black leaves e8 in this continuation. } 4. Kf7 { White protects the promotion square e8. } *
+
+[Event "Endgames, Step by Step: lesson 4"]
+[Site "https://knightway8.github.io/chess18/lessons/04-count-the-pawn-race-to-its-promotion-square.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/5k2/P7/8/8/8/K7 w - - 0 1"]
+
+1. a6 { White begins the three-move race. } 1... Ke6 { Black moves toward the queen-side. } 2. a7 { The pawn reaches the seventh rank. } 2... Kd7 { Black approaches but still cannot reach a8 in time. } 3. a8=Q { White promotes before the king can stop the pawn. } *
+
+[Event "Endgames, Step by Step: lesson 5"]
+[Site "https://knightway8.github.io/chess18/lessons/05-a-rook-pawn-can-run-out-of-room.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "1/2-1/2"]
+[SetUp "1"]
+[FEN "k7/8/PK6/8/8/8/8/8 w - - 0 1"]
+
+1. a7 { The pawn reaches a7 and controls b8. Black has no legal move and is not in check: stalemate. } 1/2-1/2
+
+[Event "Endgames, Step by Step: lesson 6"]
+[Site "https://knightway8.github.io/chess18/lessons/06-connected-pawns-can-support-one-anothers-progress.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/5k2/3P4/3KP3/8/8/8 w - - 0 1"]
+
+1. e5+ { White advances with check. The king on d4 protects the pawn on e5. } 1... Ke7 { Black moves away from the pawn’s attack. } 2. d6+ { The d-pawn advances to d6, now protected by the pawn on e5. } 2... Kd7 { Black approaches the blockade square in this continuation. } *
+
+[Event "Endgames, Step by Step: lesson 7"]
+[Site "https://knightway8.github.io/chess18/lessons/07-an-outside-passer-can-distract-the-king.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6p1/8/P2k4/5KP1/8/8/8 w - - 0 1"]
+
+1. a6 { White pushes the distant passer. } 1... Kc6 { Black heads toward it. } 2. Kf5 { White improves the king toward the other wing. } 2... Kb6 { Black prepares to capture the a-pawn. } 3. g5 { White advances the king-side pawn. } 3... Kxa6 { Black takes the outside passer. } 4. Kg6 { White’s king reaches the remaining pawn battle with a large lead in activity. } *
+
+[Event "Endgames, Step by Step: lesson 8"]
+[Site "https://knightway8.github.io/chess18/lessons/08-a-rook-behind-a-passer-protects-its-advance.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "6r1/7k/P7/8/8/8/7K/R7 w - - 0 1"]
+
+1. a7 { White advances while the a1 rook still protects the pawn. } 1... Ra8 { Black blockades the promotion square with the rook. } 2. Ra6 { White improves the rook while keeping it behind the pawn. } *
+
+[Event "Endgames, Step by Step: lesson 9"]
+[Site "https://knightway8.github.io/chess18/lessons/09-a-rook-can-cut-the-defending-king-off.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/6k1/8/8/3PK3/8/8/4R3 w - - 0 1"]
+
+1. Rf1 { White creates a barrier on the f-file. } 1... Kg6 { Black approaches along the g-file but cannot step onto f6. } 2. Ke5 { White improves the king while the rook keeps the defender separated. } *
+
+[Event "Endgames, Step by Step: lesson 10"]
+[Site "https://knightway8.github.io/chess18/lessons/10-a-prepared-rook-can-build-a-bridge-against-checks.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/4P2k/8/4K3/5R2/8/8/4r3 w - - 0 1"]
+
+1. Re4 { White blocks the check with the rook. This is the bridge. } 1... Rxe4+ { Black exchanges rooks in the illustrated continuation. } 2. Kxe4 { White’s king recaptures. } 2... Kg7 { Black’s king approaches, but is still too far from e8. } 3. e8=Q { White promotes before the king can reach the promotion square. } *
+
+[Event "Endgames, Step by Step: lesson 11"]
+[Site "https://knightway8.github.io/chess18/lessons/11-the-sixth-rank-barrier-delays-the-attacking-king.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "4k3/8/7r/4K3/4P3/8/R7/8 w - - 0 1"]
+
+1. Kf5 { White approaches from the side. } 1... Rb6 { Black keeps the sixth-rank barrier while avoiding the file occupied by White’s rook. } 2. e5 { White advances the pawn. } 2... Rh6 { Black continues to deny the sixth rank. } 3. e6 { The pawn reaches the sixth rank, changing the defensive task. } 3... Rh1 { Black goes behind the attacking king to prepare checks. } 4. Kf6 { White tries to improve the king. } 4... Rh6+ { Black checks from the side; the pawn no longer supplies shelter behind the king. } *
+
+[Event "Endgames, Step by Step: lesson 12"]
+[Site "https://knightway8.github.io/chess18/lessons/12-the-wrong-colored-bishop-cannot-control-the-corner.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "1/2-1/2"]
+[SetUp "1"]
+[FEN "k7/8/P7/1K6/8/8/8/2B5 w - - 0 1"]
+
+1. Bg5 { White improves the bishop, but it still cannot touch the light promotion square. } 1... Kb8 { Black stays near the corner. } 2. Kb6 { White’s king approaches. } 2... Ka8 { Black returns to the promotion corner. } 3. a7 { The pawn advance produces stalemate in the displayed position. } 1/2-1/2
+
+[Event "Endgames, Step by Step: lesson 13"]
+[Site "https://knightway8.github.io/chess18/lessons/13-promotion-with-check-wins-an-extra-moment.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "7k/P7/8/8/8/8/7p/1K6 w - - 0 1"]
+
+1. a8=Q+ { White promotes with check. } 1... Kh7 { Black answers the check instead of promoting. } 2. Qh1 { White’s queen reaches the other promotion square and blocks the h-pawn. } *
+
+[Event "Endgames, Step by Step: lesson 14"]
+[Site "https://knightway8.github.io/chess18/lessons/14-exchange-queens-when-the-pawn-ending-supports-the-decision.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "3qk3/8/4K3/4P3/8/8/8/3Q4 w - - 0 1"]
+
+1. Qxd8+ { White exchanges queens with check. } 1... Kxd8 { Black recaptures, reaching the pawn ending. } 2. Kf7 { White’s king controls the promotion square e8 and makes room for the pawn. } 2... Kd7 { Black approaches the pawn. } 3. e6+ { The pawn advances with check and remains supported by the king. } *
+
+[Event "Endgames, Step by Step: lesson 15"]
+[Site "https://knightway8.github.io/chess18/lessons/15-separated-passed-pawns-stretch-one-king.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "*"]
+[SetUp "1"]
+[FEN "8/8/4k3/P6P/8/8/8/K7 w - - 0 1"]
+
+1. a6 { White advances on the queen-side. } 1... Kf6 { Black heads toward the h-pawn in this line. } 2. a7 { The a-pawn gets one move from promotion. } 2... Kg7 { Black continues toward the king-side pawn. } 3. h6+ { White advances with check, gaining time for the other passer. } 3... Kxh6 { Black captures the h-pawn. } 4. a8=Q { The a-pawn promotes while Black’s king is far away. } *
+
+[Event "Endgames, Step by Step: lesson 16"]
+[Site "https://knightway8.github.io/chess18/lessons/16-underpromote-when-a-queen-would-stalemate.html"]
+[Date "2026.09.05"]
+[Round "-"]
+[White "Illustration"]
+[Black "Illustration"]
+[Result "1-0"]
+[SetUp "1"]
+[FEN "8/k1P5/2K5/8/8/8/8/8 w - - 0 1"]
+
+1. c8=R { White promotes to a rook, leaving a6 available to the Black king. } 1... Ka6 { Black takes its only legal escape. } 2. Ra8# { The rook checks along the a-file while White’s king covers the b-file escapes. } 1-0

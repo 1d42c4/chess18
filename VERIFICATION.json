@@ -1,0 +1,15 @@
+{
+  "repository": "chess18",
+  "lessons": 16,
+  "lessonWords": 3064,
+  "lessonDiagrams": 32,
+  "legalIllustratedPlies": 72,
+  "tablebasePositionsChecked": 88,
+  "htmlPages": 20,
+  "localReferencesChecked": 149,
+  "maximumDirectoryEntries": 18,
+  "clientScripts": 0,
+  "answerInputs": 0,
+  "standaloneLessons": 16,
+  "status": "passed"
+}

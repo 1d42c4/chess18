@@ -1,0 +1,58 @@
+{
+  "upstream": "https://github.com/lichess-org/lila",
+  "commit": "6805ea18877b82b6ee6ec8e6eef79e1441f1b6cc",
+  "path": "public/piece/cburnett",
+  "author": "Colin M. L. Burnett",
+  "license": "GPL-2.0-or-later",
+  "modified": false,
+  "files": [
+    {
+      "file": "wK.svg",
+      "sha256": "6a015951fb9ec986212164038e03008ae36d3438c2d4550d3ec1da76b172fa04"
+    },
+    {
+      "file": "wQ.svg",
+      "sha256": "c3dc7fceb7ac157dda1fbcafbc2fcc58911a0a392cb671cbe50dbd4ea099e6c0"
+    },
+    {
+      "file": "wR.svg",
+      "sha256": "53013fc8920647f3f3d0509f22ca16a67a8f320e6a6a55f2f05b30b9940566d9"
+    },
+    {
+      "file": "wB.svg",
+      "sha256": "b7d1a118f4cfa74190ebf7f68dd88f4020072821e2c49236b0796766b34e159d"
+    },
+    {
+      "file": "wN.svg",
+      "sha256": "ef4cde0a7b40914c436b8966767cbfa960a6a4ed2d3bfbe9aa9986a9214cb8e0"
+    },
+    {
+      "file": "wP.svg",
+      "sha256": "0596b7ce6f71517800b5103f4ab0370d479e6d66e69c1411f27490d20772e8d6"
+    },
+    {
+      "file": "bK.svg",
+      "sha256": "b83f0a15002eefcd30137d17042894f2ed821f6a85bd6eb41b5c85ce733359ed"
+    },
+    {
+      "file": "bQ.svg",
+      "sha256": "b60573d7b225da00537368c9e20ff8d725f4edf3d5e3f93ce87e7d119aae8922"
+    },
+    {
+      "file": "bR.svg",
+      "sha256": "7b4fa825748a9f9a19580353b4a57f57ed66b829f6aecd745d9e9752991dc843"
+    },
+    {
+      "file": "bB.svg",
+      "sha256": "77e9debfa5cb8052a096affd49d5d4d842313ccd5194d5a85e38b8a7831885bf"
+    },
+    {
+      "file": "bN.svg",
+      "sha256": "28c70309f34653625d8d1aa40b82387a5aa3a68cd55dbacee438a3d0c74269ea"
+    },
+    {
+      "file": "bP.svg",
+      "sha256": "09539f32260765e6626c4653978aeeb166c7107854a03de37cd23c77f5ec6e6a"
+    }
+  ]
+}

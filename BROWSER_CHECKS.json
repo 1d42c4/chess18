@@ -1,0 +1,15 @@
+{
+  "status": "passed",
+  "checks": {
+    "repo": "chess18",
+    "lessonsChecked": 16,
+    "javascriptDisabled": true,
+    "noAnswerControls": true,
+    "allDiagramsFit": true,
+    "navigation": true,
+    "mobileLayout": true,
+    "printCollection": true,
+    "isolatedSingleFileOffline": true
+  },
+  "pageErrors": []
+}

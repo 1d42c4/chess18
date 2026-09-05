@@ -1,0 +1,1644 @@
+{
+  "slug": "endgames",
+  "title": "Endgames, Step by Step",
+  "subtitle": "Sixteen clear explanations of promotion, king activity, and practical finishing methods.",
+  "color": "#77538d",
+  "audience": "For players who want to understand the small positions that decide many games.",
+  "lessons": [
+    {
+      "title": "The king becomes an active piece",
+      "lead": "With fewer attackers, the king can help win and defend pawns.",
+      "read": "Both sides have one pawn, and neither side has a long-range piece that can check the king from a distance. White’s king can move toward the center. Black should also bring its king toward the squares that matter.",
+      "explain": "King activity means access to useful squares. A king can escort a pawn, attack an enemy pawn, block the opposing king, or control a promotion square. These jobs explain its route. Centralization is often useful because central squares allow movement toward either wing, but the relevant pawn may require a different destination.",
+      "caution": "The king is still subject to every normal safety rule. It cannot move next to the enemy king or onto a pawn’s attacked diagonal. In endings with rooks or queens, checks may also make a direct route unsafe.",
+      "remember": "Give the king a concrete destination connected to the pawns.",
+      "number": 1,
+      "filename": "01-the-king-becomes-an-active-piece.html",
+      "fen": "8/5pk1/8/8/8/8/4KP2/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "Kd3",
+          "uci": "e2d3",
+          "note": "White starts toward the center instead of leaving the king on the back rank.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/5pk1/8/8/8/3K4/5P2/8 b - - 1 1"
+        },
+        {
+          "san": "Kf6",
+          "uci": "g7f6",
+          "note": "Black improves the king toward the central files.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/5p2/5k2/8/8/3K4/5P2/8 w - - 2 2"
+        },
+        {
+          "san": "Ke4",
+          "uci": "d3e4",
+          "note": "White reaches an active central square.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/5p2/5k2/8/4K3/8/5P2/8 b - - 3 2"
+        },
+        {
+          "san": "Ke6",
+          "uci": "f6e6",
+          "note": "Black also approaches, keeping a legal distance between the kings.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "8/5p2/4k3/8/4K3/8/5P2/8 w - - 4 3"
+        }
+      ],
+      "finalFen": "8/5p2/4k3/8/4K3/8/5P2/8 w - - 4 3",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 193,
+      "tablebase": {
+        "start": {
+          "category": "draw",
+          "whiteResult": "draw",
+          "dtz": 0,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F5pk1%2F8%2F8%2F8%2F8%2F4KP2%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F5pk1%2F8%2F8%2F8%2F3K4%2F5P2%2F8%20b%20-%20-%201%201"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F5p2%2F5k2%2F8%2F8%2F3K4%2F5P2%2F8%20w%20-%20-%202%202"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F5p2%2F5k2%2F8%2F4K3%2F8%2F5P2%2F8%20b%20-%20-%203%202"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F5p2%2F4k3%2F8%2F4K3%2F8%2F5P2%2F8%20w%20-%20-%204%203"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Opposition is a struggle over entry squares",
+      "lead": "Facing kings can force the player to move to yield ground.",
+      "read": "The kings face one another with e5 between them. Neither can step onto e5 because the opposing king controls it. White is to move and cannot advance the e3 pawn because White’s king occupies e4.",
+      "explain": "Black’s reply preserves control of the important entry squares. This direct opposition is one way to keep the attacking king from advancing in front of its pawn. The useful idea is not simply that kings are an odd number of squares apart; it is that the defender can answer the attacker’s route while maintaining the blockade.",
+      "caution": "Pawn moves can provide waiting tempi, and distant or diagonal king routes can change the calculation. Opposition is a tool for reaching or denying key squares, not a result that automatically wins every pawn ending.",
+      "remember": "Use opposition to explain which king can enter the important squares.",
+      "number": 2,
+      "filename": "02-opposition-is-a-struggle-over-entry-squares.html",
+      "fen": "8/8/4k3/8/4K3/4P3/8/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "Kd4",
+          "uci": "e4d4",
+          "note": "White steps sideways, trying to approach around the defender.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/8/4k3/8/3K4/4P3/8/8 b - - 1 1"
+        },
+        {
+          "san": "Kd6",
+          "uci": "e6d6",
+          "note": "Black follows and restores the same facing relationship on the d-file.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/8/3k4/8/3K4/4P3/8/8 w - - 2 2"
+        }
+      ],
+      "finalFen": "8/8/3k4/8/3K4/4P3/8/8 w - - 2 2",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 175,
+      "tablebase": {
+        "start": {
+          "category": "draw",
+          "whiteResult": "draw",
+          "dtz": 0,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F4k3%2F8%2F4K3%2F4P3%2F8%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F4k3%2F8%2F3K4%2F4P3%2F8%2F8%20b%20-%20-%201%201"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F3k4%2F8%2F3K4%2F4P3%2F8%2F8%20w%20-%20-%202%202"
+          }
+        ]
+      }
+    },
+    {
+      "title": "A king in front can escort its pawn home",
+      "lead": "Key-square access gives the attacking king room to protect promotion.",
+      "read": "White’s king is already in front of the e-pawn, on e6. This is a favorable key-square position for a non-rook pawn. The king can move around the defender while protecting the pawn’s advance.",
+      "explain": "The line illustrates why the king’s position matters more than the pawn’s initial distance from promotion. White does not simply push the pawn and hope. The king controls the squares that would let Black capture it or occupy its route. The displayed final arrangement prepares a protected promotion after Black’s reply.",
+      "caution": "This explanation applies to the particular non-rook-pawn position shown. Rook pawns have fewer king routes near the board edge and important drawing exceptions. A pawn pushed before its king has obtained the necessary access may become easier to blockade.",
+      "remember": "King access can make promotion possible; pawn speed alone may not.",
+      "number": 3,
+      "filename": "03-a-king-in-front-can-escort-its-pawn-home.html",
+      "fen": "4k3/8/4K3/4P3/8/8/8/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "Kf6",
+          "uci": "e6f6",
+          "note": "White makes room for the pawn and controls e7.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "4k3/8/5K2/4P3/8/8/8/8 b - - 1 1"
+        },
+        {
+          "san": "Kf8",
+          "uci": "e8f8",
+          "note": "Black stays near the promotion area.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "5k2/8/5K2/4P3/8/8/8/8 w - - 2 2"
+        },
+        {
+          "san": "e6",
+          "uci": "e5e6",
+          "note": "The pawn advances while the king keeps useful control.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "5k2/8/4PK2/8/8/8/8/8 b - - 0 2"
+        },
+        {
+          "san": "Ke8",
+          "uci": "f8e8",
+          "note": "Black returns in front of the pawn.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "4k3/8/4PK2/8/8/8/8/8 w - - 1 3"
+        },
+        {
+          "san": "e7",
+          "uci": "e6e7",
+          "note": "White advances to the seventh rank with king support.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "4k3/4P3/5K2/8/8/8/8/8 b - - 0 3"
+        },
+        {
+          "san": "Kd7",
+          "uci": "e8d7",
+          "note": "Black leaves e8 in this continuation.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "8/3kP3/5K2/8/8/8/8/8 w - - 1 4"
+        },
+        {
+          "san": "Kf7",
+          "uci": "f6f7",
+          "note": "White protects the promotion square e8.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "8/3kPK2/8/8/8/8/8/8 b - - 2 4"
+        }
+      ],
+      "finalFen": "8/3kPK2/8/8/8/8/8/8 b - - 2 4",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 205,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 3,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F4K3%2F4P3%2F8%2F8%2F8%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F5K2%2F4P3%2F8%2F8%2F8%2F8%20b%20-%20-%201%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=5k2%2F8%2F5K2%2F4P3%2F8%2F8%2F8%2F8%20w%20-%20-%202%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=5k2%2F8%2F4PK2%2F8%2F8%2F8%2F8%2F8%20b%20-%20-%200%202"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F4PK2%2F8%2F8%2F8%2F8%2F8%20w%20-%20-%201%203"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -4,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F4P3%2F5K2%2F8%2F8%2F8%2F8%2F8%20b%20-%20-%200%203"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 3,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F3kP3%2F5K2%2F8%2F8%2F8%2F8%2F8%20w%20-%20-%201%204"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F3kPK2%2F8%2F8%2F8%2F8%2F8%2F8%20b%20-%20-%202%204"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Count the pawn race to its promotion square",
+      "lead": "The defending king must arrive in time to stop promotion, not merely approach.",
+      "read": "White’s a5 pawn needs three advances to promote. Black’s king on f6 is too far from a8 to stop that direct race when White moves first. The distant White king is not needed for this particular promotion.",
+      "explain": "The rule of the square is a visual shortcut for this counting task in a simple unobstructed race. Draw a square from the pawn toward its promotion rank and across by the same distance. A defending king able to enter that square at the relevant moment can often catch the pawn.",
+      "caution": "Move order, a starting-rank double advance, captures, and occupied or attacked squares can change the shortcut. For example, a king starting on d6 is much closer than the king shown here. Exact move counting is the reliable method when the geometry is unclear.",
+      "remember": "Count moves to the stopping square, including whose turn it is.",
+      "number": 4,
+      "filename": "04-count-the-pawn-race-to-its-promotion-square.html",
+      "fen": "8/8/5k2/P7/8/8/8/K7 w - - 0 1",
+      "steps": [
+        {
+          "san": "a6",
+          "uci": "a5a6",
+          "note": "White begins the three-move race.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/8/P4k2/8/8/8/8/K7 b - - 0 1"
+        },
+        {
+          "san": "Ke6",
+          "uci": "f6e6",
+          "note": "Black moves toward the queen-side.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/8/P3k3/8/8/8/8/K7 w - - 1 2"
+        },
+        {
+          "san": "a7",
+          "uci": "a6a7",
+          "note": "The pawn reaches the seventh rank.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/P7/4k3/8/8/8/8/K7 b - - 0 2"
+        },
+        {
+          "san": "Kd7",
+          "uci": "e6d7",
+          "note": "Black approaches but still cannot reach a8 in time.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "8/P2k4/8/8/8/8/8/K7 w - - 1 3"
+        },
+        {
+          "san": "a8=Q",
+          "uci": "a7a8q",
+          "note": "White promotes before the king can stop the pawn.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "Q7/3k4/8/8/8/8/8/K7 b - - 0 3"
+        }
+      ],
+      "finalFen": "Q7/3k4/8/8/8/8/8/K7 b - - 0 3",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 197,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F5k2%2FP7%2F8%2F8%2F8%2FK7%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2FP4k2%2F8%2F8%2F8%2F8%2FK7%20b%20-%20-%200%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2FP3k3%2F8%2F8%2F8%2F8%2FK7%20w%20-%20-%201%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2FP7%2F4k3%2F8%2F8%2F8%2F8%2FK7%20b%20-%20-%200%202"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2FP2k4%2F8%2F8%2F8%2F8%2F8%2FK7%20w%20-%20-%201%203"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -18,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=Q7%2F3k4%2F8%2F8%2F8%2F8%2F8%2FK7%20b%20-%20-%200%203"
+          }
+        ]
+      }
+    },
+    {
+      "title": "A rook pawn can run out of room",
+      "lead": "The edge of the board can protect the defending king.",
+      "read": "White’s pawn is on the a-file, and Black’s king has reached the promotion corner a8. White’s king controls a7 and b7. The pawn can advance, but the resulting confinement does not create a check.",
+      "explain": "The missing file beyond the board edge matters. White cannot use the same king routes available with a central pawn to push the defender away. The king in the corner may hold a draw even though the pawn is advanced and its king is close.",
+      "caution": "This is a specific corner-blockade position, not a statement that rook pawns never win. They can promote when the defending king is too far away, or when additional material changes control of the relevant squares. Here every apparent improvement must be checked against the stalemate rule.",
+      "remember": "Near a corner, an advanced rook pawn may have less winning power than a central pawn.",
+      "number": 5,
+      "filename": "05-a-rook-pawn-can-run-out-of-room.html",
+      "fen": "k7/8/PK6/8/8/8/8/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "a7",
+          "uci": "a6a7",
+          "note": "The pawn reaches a7 and controls b8. Black has no legal move and is not in check: stalemate.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "k7/P7/1K6/8/8/8/8/8 b - - 0 1"
+        }
+      ],
+      "finalFen": "k7/P7/1K6/8/8/8/8/8 b - - 0 1",
+      "checkmate": false,
+      "stalemate": true,
+      "wordCount": 177,
+      "tablebase": {
+        "start": {
+          "category": "draw",
+          "whiteResult": "draw",
+          "dtz": 0,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=k7%2F8%2FPK6%2F8%2F8%2F8%2F8%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": true,
+            "source": "https://tablebase.lichess.ovh/standard?fen=k7%2FP7%2F1K6%2F8%2F8%2F8%2F8%2F8%20b%20-%20-%200%201"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Connected pawns can support one another’s progress",
+      "lead": "The support relationship changes after each advance.",
+      "read": "White’s e4 pawn protects the d5 pawn. White’s king supports the central area as well. Advancing one pawn can create a new protected position for the other, but the order must keep the advancing pawn safe.",
+      "explain": "The final diagram shows a new pawn chain: e5 supports d6. A king cannot simply capture the advanced pawn on d6 because that would step onto the e5 pawn’s attacked square. This supporting relationship can restrict the defender while the attacking king improves.",
+      "caution": "Connected pawns are not automatically safe in every arrangement. A careless advance can leave the supporting pawn unprotected or permit a blockade. Track which king or pawn protects each advance instead of treating the pawn pair as an indivisible unit.",
+      "remember": "After every pawn move, identify the new support relationship.",
+      "number": 6,
+      "filename": "06-connected-pawns-can-support-one-anothers-progress.html",
+      "fen": "8/8/5k2/3P4/3KP3/8/8/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "e5+",
+          "uci": "e4e5",
+          "note": "White advances with check. The king on d4 protects the pawn on e5.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/8/5k2/3PP3/3K4/8/8/8 b - - 0 1"
+        },
+        {
+          "san": "Ke7",
+          "uci": "f6e7",
+          "note": "Black moves away from the pawn’s attack.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/4k3/8/3PP3/3K4/8/8/8 w - - 1 2"
+        },
+        {
+          "san": "d6+",
+          "uci": "d5d6",
+          "note": "The d-pawn advances to d6, now protected by the pawn on e5.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/4k3/3P4/4P3/3K4/8/8/8 b - - 0 2"
+        },
+        {
+          "san": "Kd7",
+          "uci": "e7d7",
+          "note": "Black approaches the blockade square in this continuation.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "8/3k4/3P4/4P3/3K4/8/8/8 w - - 1 3"
+        }
+      ],
+      "finalFen": "8/3k4/3P4/4P3/3K4/8/8/8 w - - 1 3",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 182,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F5k2%2F3P4%2F3KP3%2F8%2F8%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F5k2%2F3PP3%2F3K4%2F8%2F8%2F8%20b%20-%20-%200%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F4k3%2F8%2F3PP3%2F3K4%2F8%2F8%2F8%20w%20-%20-%201%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -4,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F4k3%2F3P4%2F4P3%2F3K4%2F8%2F8%2F8%20b%20-%20-%200%202"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 3,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F3k4%2F3P4%2F4P3%2F3K4%2F8%2F8%2F8%20w%20-%20-%201%203"
+          }
+        ]
+      }
+    },
+    {
+      "title": "An outside passer can distract the king",
+      "lead": "A distant pawn can trade its life for access on the other wing.",
+      "read": "White has passed pawns on widely separated files. The a-pawn is far from the king-side pawns. If Black’s king goes after it, White’s king can move toward the g7 pawn and the promotion route for its own g-pawn.",
+      "explain": "The a-pawn’s value was partly the time required to stop it. The final position shows White’s king next to g7 while the Black king is far away on a6. This is the practical purpose of an outside passed pawn: stretch the defender’s responsibilities across the board.",
+      "caution": "The defender is not obliged to follow the displayed route. Always calculate whether ignoring the passer creates faster counterplay elsewhere. A decoy succeeds only when the time and squares gained compensate for the pawn given up.",
+      "remember": "A passer can be valuable because of where it pulls the enemy king.",
+      "number": 7,
+      "filename": "07-an-outside-passer-can-distract-the-king.html",
+      "fen": "8/6p1/8/P2k4/5KP1/8/8/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "a6",
+          "uci": "a5a6",
+          "note": "White pushes the distant passer.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/6p1/P7/3k4/5KP1/8/8/8 b - - 0 1"
+        },
+        {
+          "san": "Kc6",
+          "uci": "d5c6",
+          "note": "Black heads toward it.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/6p1/P1k5/8/5KP1/8/8/8 w - - 1 2"
+        },
+        {
+          "san": "Kf5",
+          "uci": "f4f5",
+          "note": "White improves the king toward the other wing.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/6p1/P1k5/5K2/6P1/8/8/8 b - - 2 2"
+        },
+        {
+          "san": "Kb6",
+          "uci": "c6b6",
+          "note": "Black prepares to capture the a-pawn.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "8/6p1/Pk6/5K2/6P1/8/8/8 w - - 3 3"
+        },
+        {
+          "san": "g5",
+          "uci": "g4g5",
+          "note": "White advances the king-side pawn.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "8/6p1/Pk6/5KP1/8/8/8/8 b - - 0 3"
+        },
+        {
+          "san": "Kxa6",
+          "uci": "b6a6",
+          "note": "Black takes the outside passer.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "8/6p1/k7/5KP1/8/8/8/8 w - - 0 4"
+        },
+        {
+          "san": "Kg6",
+          "uci": "f5g6",
+          "note": "White’s king reaches the remaining pawn battle with a large lead in activity.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "8/6p1/k5K1/6P1/8/8/8/8 b - - 1 4"
+        }
+      ],
+      "finalFen": "8/6p1/k5K1/6P1/8/8/8/8 b - - 1 4",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 199,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2F8%2FP2k4%2F5KP1%2F8%2F8%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2FP7%2F3k4%2F5KP1%2F8%2F8%2F8%20b%20-%20-%200%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2FP1k5%2F8%2F5KP1%2F8%2F8%2F8%20w%20-%20-%201%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2FP1k5%2F5K2%2F6P1%2F8%2F8%2F8%20b%20-%20-%202%202"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2FPk6%2F5K2%2F6P1%2F8%2F8%2F8%20w%20-%20-%203%203"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2FPk6%2F5KP1%2F8%2F8%2F8%2F8%20b%20-%20-%200%203"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2Fk7%2F5KP1%2F8%2F8%2F8%2F8%20w%20-%20-%200%204"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6p1%2Fk5K1%2F6P1%2F8%2F8%2F8%2F8%20b%20-%20-%201%204"
+          }
+        ]
+      }
+    },
+    {
+      "title": "A rook behind a passer protects its advance",
+      "lead": "The rook’s line grows as the pawn moves forward.",
+      "read": "White’s rook is behind the a6 pawn on the same file. The rook protects the pawn through the clear a-file. As the pawn advances, the rook continues to protect its new square without needing to follow immediately.",
+      "explain": "The example also shows the limit of the familiar rule. A rook behind a passer is useful, but it does not make promotion automatic. Black’s rook on a8 blocks the pawn directly. White may need king support or a different rook maneuver to change that blockade.",
+      "caution": "Rook placement depends on checks, king activity, and the available targets. A rook in front of a pawn may sometimes be necessary, and an active checking rook may be stronger than a passive rook following a general rule. The underlying reason for the rule is the rook’s expanding line of support.",
+      "remember": "Place the rook where the pawn’s advance increases its useful activity.",
+      "number": 8,
+      "filename": "08-a-rook-behind-a-passer-protects-its-advance.html",
+      "fen": "6r1/7k/P7/8/8/8/7K/R7 w - - 0 1",
+      "steps": [
+        {
+          "san": "a7",
+          "uci": "a6a7",
+          "note": "White advances while the a1 rook still protects the pawn.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "6r1/P6k/8/8/8/8/7K/R7 b - - 0 1"
+        },
+        {
+          "san": "Ra8",
+          "uci": "g8a8",
+          "note": "Black blockades the promotion square with the rook.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "r7/P6k/8/8/8/8/7K/R7 w - - 1 2"
+        },
+        {
+          "san": "Ra6",
+          "uci": "a1a6",
+          "note": "White improves the rook while keeping it behind the pawn.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "r7/P6k/R7/8/8/8/7K/8 b - - 2 2"
+        }
+      ],
+      "finalFen": "r7/P6k/R7/8/8/8/7K/8 b - - 2 2",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 190,
+      "tablebase": {
+        "start": {
+          "category": "draw",
+          "whiteResult": "draw",
+          "dtz": 0,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=6r1%2F7k%2FP7%2F8%2F8%2F8%2F7K%2FR7%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=6r1%2FP6k%2F8%2F8%2F8%2F8%2F7K%2FR7%20b%20-%20-%200%201"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=r7%2FP6k%2F8%2F8%2F8%2F8%2F7K%2FR7%20w%20-%20-%201%202"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=r7%2FP6k%2FR7%2F8%2F8%2F8%2F7K%2F8%20b%20-%20-%202%202"
+          }
+        ]
+      }
+    },
+    {
+      "title": "A rook can cut the defending king off",
+      "lead": "A controlled file can be a barrier rather than an attack on material.",
+      "read": "Black’s king would like to approach White’s pawn and king. White can place a rook on the f-file, controlling every clear square along it. The Black king cannot cross an attacked file just because the rook is far away.",
+      "explain": "The rook is doing positional work: it limits the opposing king’s route. White’s own king can use that separation to support the pawn. In many rook endings, restricting the defender is more valuable than giving a series of checks that drive it toward a useful destination.",
+      "caution": "The barrier lasts only while the file remains clear and the rook can hold its post. A king may eventually approach and attack the rook, or another piece may block the file. Check the actual route rather than treating “cut off” as a permanent condition.",
+      "remember": "A rook’s line can deny access as effectively as it attacks a piece.",
+      "number": 9,
+      "filename": "09-a-rook-can-cut-the-defending-king-off.html",
+      "fen": "8/6k1/8/8/3PK3/8/8/4R3 w - - 0 1",
+      "steps": [
+        {
+          "san": "Rf1",
+          "uci": "e1f1",
+          "note": "White creates a barrier on the f-file.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/6k1/8/8/3PK3/8/8/5R2 b - - 1 1"
+        },
+        {
+          "san": "Kg6",
+          "uci": "g7g6",
+          "note": "Black approaches along the g-file but cannot step onto f6.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/8/6k1/8/3PK3/8/8/5R2 w - - 2 2"
+        },
+        {
+          "san": "Ke5",
+          "uci": "e4e5",
+          "note": "White improves the king while the rook keeps the defender separated.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/8/6k1/4K3/3P4/8/8/5R2 b - - 3 2"
+        }
+      ],
+      "finalFen": "8/8/6k1/4K3/3P4/8/8/5R2 b - - 3 2",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 192,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6k1%2F8%2F8%2F3PK3%2F8%2F8%2F4R3%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F6k1%2F8%2F8%2F3PK3%2F8%2F8%2F5R2%20b%20-%20-%201%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F6k1%2F8%2F3PK3%2F8%2F8%2F5R2%20w%20-%20-%202%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F6k1%2F4K3%2F3P4%2F8%2F8%2F5R2%20b%20-%20-%203%202"
+          }
+        ]
+      }
+    },
+    {
+      "title": "A prepared rook can build a bridge against checks",
+      "lead": "Blocking a check can finish the work that king movement began.",
+      "read": "White’s king on e5 is checked by the rook on e1. White has already placed its rook on the fourth rank. The pawn is on e7, and Black’s king is far away on h7. The prepared rook can now interrupt the checking file.",
+      "explain": "This is the finishing mechanism behind bridge-building in rook endings. The rook is placed so that the king can eventually shelter behind it or exchange the checking rook favorably. Black’s king distance matters in the final pawn race; the diagrams make that distance explicit.",
+      "caution": "Do not copy the rook move without checking the resulting pawn ending. If the defending king were closer, the exchange might allow it to stop promotion. The example teaches the prepared-block mechanism in this exact winning arrangement.",
+      "remember": "Prepare the square that will let your rook interrupt the next check.",
+      "number": 10,
+      "filename": "10-a-prepared-rook-can-build-a-bridge-against-checks.html",
+      "fen": "8/4P2k/8/4K3/5R2/8/8/4r3 w - - 0 1",
+      "steps": [
+        {
+          "san": "Re4",
+          "uci": "f4e4",
+          "note": "White blocks the check with the rook. This is the bridge.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/4P2k/8/4K3/4R3/8/8/4r3 b - - 1 1"
+        },
+        {
+          "san": "Rxe4+",
+          "uci": "e1e4",
+          "note": "Black exchanges rooks in the illustrated continuation.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/4P2k/8/4K3/4r3/8/8/8 w - - 0 2"
+        },
+        {
+          "san": "Kxe4",
+          "uci": "e5e4",
+          "note": "White’s king recaptures.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/4P2k/8/8/4K3/8/8/8 b - - 0 2"
+        },
+        {
+          "san": "Kg7",
+          "uci": "h7g7",
+          "note": "Black’s king approaches, but is still too far from e8.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "8/4P1k1/8/8/4K3/8/8/8 w - - 1 3"
+        },
+        {
+          "san": "e8=Q",
+          "uci": "e7e8q",
+          "note": "White promotes before the king can reach the promotion square.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "4Q3/6k1/8/8/4K3/8/8/8 b - - 0 3"
+        }
+      ],
+      "finalFen": "4Q3/6k1/8/8/4K3/8/8/8 b - - 0 3",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 197,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 3,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F4P2k%2F8%2F4K3%2F5R2%2F8%2F8%2F4r3%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F4P2k%2F8%2F4K3%2F4R3%2F8%2F8%2F4r3%20b%20-%20-%201%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F4P2k%2F8%2F4K3%2F4r3%2F8%2F8%2F8%20w%20-%20-%200%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F4P2k%2F8%2F8%2F4K3%2F8%2F8%2F8%20b%20-%20-%200%202"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F4P1k1%2F8%2F8%2F4K3%2F8%2F8%2F8%20w%20-%20-%201%203"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -8,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4Q3%2F6k1%2F8%2F8%2F4K3%2F8%2F8%2F8%20b%20-%20-%200%203"
+          }
+        ]
+      }
+    },
+    {
+      "title": "The sixth-rank barrier delays the attacking king",
+      "lead": "A Philidor-type defense changes method when the pawn advances.",
+      "read": "Black’s king stands in front of the pawn, while the rook on h6 controls the sixth rank from a safe distance. White’s king cannot cross that rank. Black can maintain the barrier while waiting for the pawn to advance far enough to remove its king’s shelter.",
+      "explain": "The defense has two phases: deny king entry, then use checking distance after the pawn advances. The transition explains why the rook should not abandon the barrier too early. The shown position is a drawing tablebase position with accurate defense.",
+      "caution": "The defending rook must stay far enough from the enemy king to avoid capture. Exact details vary with the pawn’s file and rook placement, especially near the board edge. This is the mechanism in the displayed setup, not a substitute for checking legal moves.",
+      "remember": "Hold the barrier first; switch to checking when the pawn’s advance permits it.",
+      "number": 11,
+      "filename": "11-the-sixth-rank-barrier-delays-the-attacking-king.html",
+      "fen": "4k3/8/7r/4K3/4P3/8/R7/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "Kf5",
+          "uci": "e5f5",
+          "note": "White approaches from the side.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "4k3/8/7r/5K2/4P3/8/R7/8 b - - 1 1"
+        },
+        {
+          "san": "Rb6",
+          "uci": "h6b6",
+          "note": "Black keeps the sixth-rank barrier while avoiding the file occupied by White’s rook.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "4k3/8/1r6/5K2/4P3/8/R7/8 w - - 2 2"
+        },
+        {
+          "san": "e5",
+          "uci": "e4e5",
+          "note": "White advances the pawn.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "4k3/8/1r6/4PK2/8/8/R7/8 b - - 0 2"
+        },
+        {
+          "san": "Rh6",
+          "uci": "b6h6",
+          "note": "Black continues to deny the sixth rank.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "4k3/8/7r/4PK2/8/8/R7/8 w - - 1 3"
+        },
+        {
+          "san": "e6",
+          "uci": "e5e6",
+          "note": "The pawn reaches the sixth rank, changing the defensive task.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "4k3/8/4P2r/5K2/8/8/R7/8 b - - 0 3"
+        },
+        {
+          "san": "Rh1",
+          "uci": "h6h1",
+          "note": "Black goes behind the attacking king to prepare checks.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "4k3/8/4P3/5K2/8/8/R7/7r w - - 1 4"
+        },
+        {
+          "san": "Kf6",
+          "uci": "f5f6",
+          "note": "White tries to improve the king.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "4k3/8/4PK2/8/8/8/R7/7r b - - 2 4"
+        },
+        {
+          "san": "Rh6+",
+          "uci": "h1h6",
+          "note": "Black checks from the side; the pawn no longer supplies shelter behind the king.",
+          "side": "b",
+          "moveNumber": 4,
+          "fen": "4k3/8/4PK1r/8/8/8/R7/8 w - - 3 5"
+        }
+      ],
+      "finalFen": "4k3/8/4PK1r/8/8/8/R7/8 w - - 3 5",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 227,
+      "tablebase": {
+        "start": {
+          "category": "draw",
+          "whiteResult": "draw",
+          "dtz": 0,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F7r%2F4K3%2F4P3%2F8%2FR7%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F7r%2F5K2%2F4P3%2F8%2FR7%2F8%20b%20-%20-%201%201"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F1r6%2F5K2%2F4P3%2F8%2FR7%2F8%20w%20-%20-%202%202"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F1r6%2F4PK2%2F8%2F8%2FR7%2F8%20b%20-%20-%200%202"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F7r%2F4PK2%2F8%2F8%2FR7%2F8%20w%20-%20-%201%203"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F4P2r%2F5K2%2F8%2F8%2FR7%2F8%20b%20-%20-%200%203"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F4P3%2F5K2%2F8%2F8%2FR7%2F7r%20w%20-%20-%201%204"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F4PK2%2F8%2F8%2F8%2FR7%2F7r%20b%20-%20-%202%204"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=4k3%2F8%2F4PK1r%2F8%2F8%2F8%2FR7%2F8%20w%20-%20-%203%205"
+          }
+        ]
+      }
+    },
+    {
+      "title": "The wrong-colored bishop cannot control the corner",
+      "lead": "An extra bishop may still be unable to help a rook pawn promote.",
+      "read": "White’s bishop is on dark squares, while the a-pawn promotes on the light square a8. Black’s king has reached that corner. The bishop can never attack a8, so it cannot remove the defender’s essential refuge.",
+      "explain": "The final diagram exposes the problem: White controls the king’s exits but cannot give the required check on a8. This is the wrong-bishop rook-pawn drawing pattern. The bishop is extra material, yet its square color prevents it from performing the one job that matters.",
+      "caution": "Additional pawns, a defending king outside the corner, or a different placement of the kings can change the result. The rule applies to the corner-blockade mechanism shown here, not to every position containing a bishop and rook pawn.",
+      "remember": "Match the bishop’s square color to the rook pawn’s promotion square.",
+      "number": 12,
+      "filename": "12-the-wrong-colored-bishop-cannot-control-the-corner.html",
+      "fen": "k7/8/P7/1K6/8/8/8/2B5 w - - 0 1",
+      "steps": [
+        {
+          "san": "Bg5",
+          "uci": "c1g5",
+          "note": "White improves the bishop, but it still cannot touch the light promotion square.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "k7/8/P7/1K4B1/8/8/8/8 b - - 1 1"
+        },
+        {
+          "san": "Kb8",
+          "uci": "a8b8",
+          "note": "Black stays near the corner.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "1k6/8/P7/1K4B1/8/8/8/8 w - - 2 2"
+        },
+        {
+          "san": "Kb6",
+          "uci": "b5b6",
+          "note": "White’s king approaches.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "1k6/8/PK6/6B1/8/8/8/8 b - - 3 2"
+        },
+        {
+          "san": "Ka8",
+          "uci": "b8a8",
+          "note": "Black returns to the promotion corner.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "k7/8/PK6/6B1/8/8/8/8 w - - 4 3"
+        },
+        {
+          "san": "a7",
+          "uci": "a6a7",
+          "note": "The pawn advance produces stalemate in the displayed position.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "k7/P7/1K6/6B1/8/8/8/8 b - - 0 3"
+        }
+      ],
+      "finalFen": "k7/P7/1K6/6B1/8/8/8/8 b - - 0 3",
+      "checkmate": false,
+      "stalemate": true,
+      "wordCount": 184,
+      "tablebase": {
+        "start": {
+          "category": "draw",
+          "whiteResult": "draw",
+          "dtz": 0,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=k7%2F8%2FP7%2F1K6%2F8%2F8%2F8%2F2B5%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=k7%2F8%2FP7%2F1K4B1%2F8%2F8%2F8%2F8%20b%20-%20-%201%201"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=1k6%2F8%2FP7%2F1K4B1%2F8%2F8%2F8%2F8%20w%20-%20-%202%202"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=1k6%2F8%2FPK6%2F6B1%2F8%2F8%2F8%2F8%20b%20-%20-%203%202"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=k7%2F8%2FPK6%2F6B1%2F8%2F8%2F8%2F8%20w%20-%20-%204%203"
+          },
+          {
+            "category": "draw",
+            "whiteResult": "draw",
+            "dtz": 0,
+            "checkmate": false,
+            "stalemate": true,
+            "source": "https://tablebase.lichess.ovh/standard?fen=k7%2FP7%2F1K6%2F6B1%2F8%2F8%2F8%2F8%20b%20-%20-%200%203"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Promotion with check wins an extra moment",
+      "lead": "The opponent must answer the check before completing a pawn race.",
+      "read": "Both pawns are one move from promotion. White moves first, and a queen on a8 would check the Black king along the eighth rank. That check interrupts Black’s plan to promote immediately on h1.",
+      "explain": "The queen traveled down the long diagonal a8–b7–c6–d5–e4–f3–g2–h1. It used the tempo created by check to stop the competing passer. Black’s h2 pawn cannot capture straight ahead onto h1, so the queen has placed a direct block on promotion.",
+      "caution": "A race cannot be evaluated by counting pawn pushes alone. The new piece may check, control the other promotion square, or be vulnerable to immediate capture. Continue at least far enough to see what the first promoted piece can do.",
+      "remember": "In a close race, promotion with check can change the move order decisively.",
+      "number": 13,
+      "filename": "13-promotion-with-check-wins-an-extra-moment.html",
+      "fen": "7k/P7/8/8/8/8/7p/1K6 w - - 0 1",
+      "steps": [
+        {
+          "san": "a8=Q+",
+          "uci": "a7a8q",
+          "note": "White promotes with check.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "Q6k/8/8/8/8/8/7p/1K6 b - - 0 1"
+        },
+        {
+          "san": "Kh7",
+          "uci": "h8h7",
+          "note": "Black answers the check instead of promoting.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "Q7/7k/8/8/8/8/7p/1K6 w - - 1 2"
+        },
+        {
+          "san": "Qh1",
+          "uci": "a8h1",
+          "note": "White’s queen reaches the other promotion square and blocks the h-pawn.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/7k/8/8/8/8/7p/1K5Q b - - 2 2"
+        }
+      ],
+      "finalFen": "8/7k/8/8/8/8/7p/1K5Q b - - 2 2",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 166,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=7k%2FP7%2F8%2F8%2F8%2F8%2F7p%2F1K6%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -4,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=Q6k%2F8%2F8%2F8%2F8%2F8%2F7p%2F1K6%20b%20-%20-%200%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 3,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=Q7%2F7k%2F8%2F8%2F8%2F8%2F7p%2F1K6%20w%20-%20-%201%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F7k%2F8%2F8%2F8%2F8%2F7p%2F1K5Q%20b%20-%20-%202%202"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Exchange queens when the pawn ending supports the decision",
+      "lead": "A simpler position is useful only when its result suits you.",
+      "read": "The queens share the d-file. White’s king already occupies a favorable square in front of the e-pawn. White can exchange queens into a king-and-pawn ending whose key-square access is sufficient to win.",
+      "explain": "The exchange works because the resulting small position is favorable, not because trading queens is automatically good when a pawn ahead. Before the trade, White can already identify the king route and the squares needed for promotion. The final diagram shows the pawn advancing under that king’s protection.",
+      "caution": "A different king arrangement could make the pawn ending drawn even if the queen ending offered winning chances. In practical play, pause before simplifying and calculate the destination position. The exchange is a bridge to a result, not a goal by itself.",
+      "remember": "Decide about the trade by examining the ending after the recapture.",
+      "number": 14,
+      "filename": "14-exchange-queens-when-the-pawn-ending-supports-the-decision.html",
+      "fen": "3qk3/8/4K3/4P3/8/8/8/3Q4 w - - 0 1",
+      "steps": [
+        {
+          "san": "Qxd8+",
+          "uci": "d1d8",
+          "note": "White exchanges queens with check.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "3Qk3/8/4K3/4P3/8/8/8/8 b - - 0 1"
+        },
+        {
+          "san": "Kxd8",
+          "uci": "e8d8",
+          "note": "Black recaptures, reaching the pawn ending.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "3k4/8/4K3/4P3/8/8/8/8 w - - 0 2"
+        },
+        {
+          "san": "Kf7",
+          "uci": "e6f7",
+          "note": "White’s king controls the promotion square e8 and makes room for the pawn.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "3k4/5K2/8/4P3/8/8/8/8 b - - 1 2"
+        },
+        {
+          "san": "Kd7",
+          "uci": "d8d7",
+          "note": "Black approaches the pawn.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "8/3k1K2/8/4P3/8/8/8/8 w - - 2 3"
+        },
+        {
+          "san": "e6+",
+          "uci": "e5e6",
+          "note": "The pawn advances with check and remains supported by the king.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "8/3k1K2/4P3/8/8/8/8/8 b - - 0 3"
+        }
+      ],
+      "finalFen": "8/3k1K2/4P3/8/8/8/8/8 b - - 0 3",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 192,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=3qk3%2F8%2F4K3%2F4P3%2F8%2F8%2F8%2F3Q4%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=3Qk3%2F8%2F4K3%2F4P3%2F8%2F8%2F8%2F8%20b%20-%20-%200%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 3,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=3k4%2F8%2F4K3%2F4P3%2F8%2F8%2F8%2F8%20w%20-%20-%200%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=3k4%2F5K2%2F8%2F4P3%2F8%2F8%2F8%2F8%20b%20-%20-%201%202"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F3k1K2%2F8%2F4P3%2F8%2F8%2F8%2F8%20w%20-%20-%202%203"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F3k1K2%2F4P3%2F8%2F8%2F8%2F8%2F8%20b%20-%20-%200%203"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Separated passed pawns stretch one king",
+      "lead": "Stopping one passer may give the other enough time.",
+      "read": "White has passed pawns on opposite sides of the board. The Black king is centralized, but it cannot be close to both promotion routes at once. White can advance one pawn while preserving the other as a distant threat.",
+      "explain": "The line demonstrates how the pawns can cooperate without protecting each other directly. Their separation creates competing demands on the defending king, and the checking advance adds a useful tempo. The pawn that is captured still contributes to the promotion of its partner.",
+      "caution": "Different starting squares or a faster opposing passer can change the race. Count the defender’s route to each promotion square, and look for checking advances that alter the timing. Distance across the board matters as much as distance to the last rank.",
+      "remember": "Two distant passers can cooperate by dividing the defender’s attention.",
+      "number": 15,
+      "filename": "15-separated-passed-pawns-stretch-one-king.html",
+      "fen": "8/8/4k3/P6P/8/8/8/K7 w - - 0 1",
+      "steps": [
+        {
+          "san": "a6",
+          "uci": "a5a6",
+          "note": "White advances on the queen-side.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "8/8/P3k3/7P/8/8/8/K7 b - - 0 1"
+        },
+        {
+          "san": "Kf6",
+          "uci": "e6f6",
+          "note": "Black heads toward the h-pawn in this line.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "8/8/P4k2/7P/8/8/8/K7 w - - 1 2"
+        },
+        {
+          "san": "a7",
+          "uci": "a6a7",
+          "note": "The a-pawn gets one move from promotion.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "8/P7/5k2/7P/8/8/8/K7 b - - 0 2"
+        },
+        {
+          "san": "Kg7",
+          "uci": "f6g7",
+          "note": "Black continues toward the king-side pawn.",
+          "side": "b",
+          "moveNumber": 2,
+          "fen": "8/P5k1/8/7P/8/8/8/K7 w - - 1 3"
+        },
+        {
+          "san": "h6+",
+          "uci": "h5h6",
+          "note": "White advances with check, gaining time for the other passer.",
+          "side": "w",
+          "moveNumber": 3,
+          "fen": "8/P5k1/7P/8/8/8/8/K7 b - - 0 3"
+        },
+        {
+          "san": "Kxh6",
+          "uci": "g7h6",
+          "note": "Black captures the h-pawn.",
+          "side": "b",
+          "moveNumber": 3,
+          "fen": "8/P7/7k/8/8/8/8/K7 w - - 0 4"
+        },
+        {
+          "san": "a8=Q",
+          "uci": "a7a8q",
+          "note": "The a-pawn promotes while Black’s king is far away.",
+          "side": "w",
+          "moveNumber": 4,
+          "fen": "Q7/8/7k/8/8/8/8/K7 b - - 0 4"
+        }
+      ],
+      "finalFen": "Q7/8/7k/8/8/8/8/K7 b - - 0 4",
+      "checkmate": false,
+      "stalemate": false,
+      "wordCount": 198,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2F4k3%2FP6P%2F8%2F8%2F8%2FK7%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2FP3k3%2F7P%2F8%2F8%2F8%2FK7%20b%20-%20-%200%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2F8%2FP4k2%2F7P%2F8%2F8%2F8%2FK7%20w%20-%20-%201%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2FP7%2F5k2%2F7P%2F8%2F8%2F8%2FK7%20b%20-%20-%200%202"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2FP5k1%2F8%2F7P%2F8%2F8%2F8%2FK7%20w%20-%20-%201%203"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2FP5k1%2F7P%2F8%2F8%2F8%2F8%2FK7%20b%20-%20-%200%203"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=8%2FP7%2F7k%2F8%2F8%2F8%2F8%2FK7%20w%20-%20-%200%204"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -18,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=Q7%2F8%2F7k%2F8%2F8%2F8%2F8%2FK7%20b%20-%20-%200%204"
+          }
+        ]
+      }
+    },
+    {
+      "title": "Underpromote when a queen would stalemate",
+      "lead": "A rook can preserve a legal move that a queen would remove.",
+      "read": "White’s king controls b5, b6, and b7. If the c7 pawn becomes a queen on c8, that queen controls a8, b8, and a6. Black’s king on a7 would have no legal move, while not being in check: stalemate.",
+      "explain": "The rook wins because it controls fewer squares at the crucial moment. It preserves a legal reply, allowing White to deliver mate on the following move. This is a concrete exception to the usual preference for queen promotion, and the complete three-move mechanism is visible in the diagrams.",
+      "caution": "Underpromotion should solve a specific problem. Choosing a weaker piece without a reason can make a win harder or even give it away. Here the reason is exact: the queen’s extra diagonal control of a6 would end the game in a draw.",
+      "remember": "Before promoting, check whether the new piece leaves the opponent a legal move.",
+      "number": 16,
+      "filename": "16-underpromote-when-a-queen-would-stalemate.html",
+      "fen": "8/k1P5/2K5/8/8/8/8/8 w - - 0 1",
+      "steps": [
+        {
+          "san": "c8=R",
+          "uci": "c7c8r",
+          "note": "White promotes to a rook, leaving a6 available to the Black king.",
+          "side": "w",
+          "moveNumber": 1,
+          "fen": "2R5/k7/2K5/8/8/8/8/8 b - - 0 1"
+        },
+        {
+          "san": "Ka6",
+          "uci": "a7a6",
+          "note": "Black takes its only legal escape.",
+          "side": "b",
+          "moveNumber": 1,
+          "fen": "2R5/8/k1K5/8/8/8/8/8 w - - 1 2"
+        },
+        {
+          "san": "Ra8#",
+          "uci": "c8a8",
+          "note": "The rook checks along the a-file while White’s king covers the b-file escapes.",
+          "side": "w",
+          "moveNumber": 2,
+          "fen": "R7/8/k1K5/8/8/8/8/8 b - - 2 2"
+        }
+      ],
+      "finalFen": "R7/8/k1K5/8/8/8/8/8 b - - 2 2",
+      "checkmate": true,
+      "stalemate": false,
+      "wordCount": 190,
+      "tablebase": {
+        "start": {
+          "category": "win",
+          "whiteResult": "win",
+          "dtz": 1,
+          "checkmate": false,
+          "stalemate": false,
+          "source": "https://tablebase.lichess.ovh/standard?fen=8%2Fk1P5%2F2K5%2F8%2F8%2F8%2F8%2F8%20w%20-%20-%200%201"
+        },
+        "steps": [
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -2,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=2R5%2Fk7%2F2K5%2F8%2F8%2F8%2F8%2F8%20b%20-%20-%200%201"
+          },
+          {
+            "category": "win",
+            "whiteResult": "win",
+            "dtz": 1,
+            "checkmate": false,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=2R5%2F8%2Fk1K5%2F8%2F8%2F8%2F8%2F8%20w%20-%20-%201%202"
+          },
+          {
+            "category": "loss",
+            "whiteResult": "win",
+            "dtz": -1,
+            "checkmate": true,
+            "stalemate": false,
+            "source": "https://tablebase.lichess.ovh/standard?fen=R7%2F8%2Fk1K5%2F8%2F8%2F8%2F8%2F8%20b%20-%20-%202%202"
+          }
+        ]
+      }
+    }
+  ],
+  "repo": "chess18",
+  "series": [
+    {
+      "repo": "chess15",
+      "title": "Chess, Clearly"
+    },
+    {
+      "repo": "chess16",
+      "title": "Openings, Explained"
+    },
+    {
+      "repo": "chess17",
+      "title": "Tactics, Made Visible"
+    },
+    {
+      "repo": "chess18",
+      "title": "Endgames, Step by Step"
+    }
+  ]
+}
