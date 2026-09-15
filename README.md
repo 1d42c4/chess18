@@ -1,6 +1,6 @@
 # Endgames, Step by Step
 
-**[Read the GitHub Pages collection](https://knightway8.github.io/chess18/)**
+**[Read the GitHub Pages collection](https://1d42c4.github.io/chess18/)**
 
 Sixteen clear explanations of promotion, king activity, and practical finishing methods.
 
@@ -38,10 +38,10 @@ A single lesson can be saved or copied on its own and read offline. Navigation t
 
 | Repository | Collection | Live site |
 | --- | --- | --- |
-| [chess15](https://github.com/knightway8/chess15) | Chess, Clearly | [Read](https://knightway8.github.io/chess15/) |
-| [chess16](https://github.com/knightway8/chess16) | Openings, Explained | [Read](https://knightway8.github.io/chess16/) |
-| [chess17](https://github.com/knightway8/chess17) | Tactics, Made Visible | [Read](https://knightway8.github.io/chess17/) |
-| [chess18](https://github.com/knightway8/chess18) | Endgames, Step by Step | [Read](https://knightway8.github.io/chess18/) |
+| [chess15](https://github.com/1d42c4/chess15) | Chess, Clearly | [Read](https://1d42c4.github.io/chess15/) |
+| [chess16](https://github.com/1d42c4/chess16) | Openings, Explained | [Read](https://1d42c4.github.io/chess16/) |
+| [chess17](https://github.com/1d42c4/chess17) | Tactics, Made Visible | [Read](https://1d42c4.github.io/chess17/) |
+| [chess18](https://github.com/1d42c4/chess18) | Endgames, Step by Step | [Read](https://1d42c4.github.io/chess18/) |
 
 ## Verification and maintenance
 
@@ -53,4 +53,4 @@ GitHub Pages publishes the root of `main` through `.nojekyll`. Default-branch ru
 
 ## Credits
 
-Original AI-created lessons prepared for knightway8. Cburnett pieces by Colin M. L. Burnett are supplied under GPL-2.0-or-later, with [unmodified SVG sources, provenance, and license](source/pieces/README.md). The artwork’s full license is also embedded as a comment in each standalone HTML file. chess.js is used for authoring checks under its [BSD-2-Clause license](vendor/chess-LICENSE.txt).
+Original AI-created lessons prepared for 1d42c4. Cburnett pieces by Colin M. L. Burnett are supplied under GPL-2.0-or-later, with [unmodified SVG sources, provenance, and license](source/pieces/README.md). The artwork’s full license is also embedded as a comment in each standalone HTML file. chess.js is used for authoring checks under its [BSD-2-Clause license](vendor/chess-LICENSE.txt).
